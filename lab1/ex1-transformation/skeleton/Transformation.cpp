@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+using namespace std;
 #include "Matrix.h"
 
 int main() {
@@ -7,18 +8,36 @@ int main() {
   int matrix_size;
   cin >> matrix_size;
 
-  int matrix[matrix_size][matrix_size];
+  int matrix[100][100];
 
   for(int row = 0; row < matrix_size; ++row) {
     for(int column = 0; column < matrix_size; ++column) {
       cin >> matrix[row][column];
-      cout << matrix[row][column];
     }
   }
 
+  Matrix matrix_magigican(matrix_size);
 
-  // for each operation, process the matrix
+  int operations;
+  cin >> operations;
 
-  // output the final matrix
+  for(int num = 0; num < operations; ++num) {
+    string operation, type;
+    cin >> operation;
+    cin >> type;
+    matrix_magigican.operate(operation, type, matrix);
+  }
+
+  for(int row = 0; row < matrix_size; ++row) {
+    for(int column = 0; column < matrix_size; ++column) {
+      cout << matrix[row][column];
+      if (column != (matrix_size - 1)) {
+        cout << " ";
+      }
+    }
+
+    cout << endl;
+  }
+
   return 0;
 }
