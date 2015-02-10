@@ -7,17 +7,16 @@ using namespace std;
 
 class Account {
 	private:
-	// data member goes here
-	// account name
-		
-	// initial balance
-		
-	// current balance
-		
+    string _name;
+    double _initialBalance, _currentBalance;
 	public:
 	// constructors, destructors
-		
+    Account(string name, double initialBalance);
 	// setters, getters
+    string getName();
+    double getCurrentBalance(double interestRate, int months);
+    void add(double value);
+    void remove(double value);
 };
 
 #endif
