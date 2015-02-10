@@ -1,0 +1,77 @@
+76
+Createfolder exam
+Createfolder lab
+Createfile lab1 931 lab
+Count lab
+Createfile lab2 957 lab
+Count lab
+Deletefile lab1
+Count exam
+Movefile lab2 exam
+Findlargest
+Findlargest
+Movefile lab2 lab
+Movefile lab2 exam
+Createfile lab3 568 lab
+Createfile exam1 111 exam
+Createfile exam2 814 exam
+Count exam
+Createfile lab4 97 lab
+Count exam
+Movefile exam1 lab
+Movefile exam1 exam
+Findlargest
+Createfile lab5 12 lab
+Createfile exam3 318 exam
+Findlargest
+Createfile lab6 134 lab
+Createfolder problem
+Createfolder movie
+Movefile exam3 lab
+Createfolder mail
+Createfile lab7 540 lab
+Createfile exam4 236 exam
+Findlargest
+Deletefile exam3
+Createfile mail1 966 mail
+Createfile lab8 1000 lab
+Count exam
+Movefile lab7 movie
+Deletefile lab4
+Createfolder article
+Findlargest
+Findlargest
+Deletefile lab3
+Createfile problem1 604 problem
+Count problem
+Movefile lab6 article
+Createfile mail2 34 mail
+Findlargest
+Findlargest
+Createfile lab9 493 lab
+Findlargest
+Createfolder book
+Count movie
+Createfile article1 914 article
+Createfile movie1 12 movie
+Findlargest
+Createfile article2 251 article
+Createfile lab10 760 lab
+Count article
+Movefile lab8 movie
+Createfile lab11 465 lab
+Deletefile article1
+Createfile book1 470 book
+Createfile article3 940 article
+Movefile lab5 problem
+Count article
+Movefile lab6 exam
+Createfile lab12 921 lab
+Deletefile exam4
+Createfile lab13 818 lab
+Createfolder paper
+Createfile problem2 551 problem
+Movefile mail2 article
+Createfile mail3 246 mail
+Createfile book2 54 book
+Createfile movie2 823 movie

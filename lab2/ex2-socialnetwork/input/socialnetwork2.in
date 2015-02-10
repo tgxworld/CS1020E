@@ -1,0 +1,51 @@
+50
+Createjoin User5 Group0
+Createjoin User7 Group1
+Createjoin User8 Group2
+Createjoin User4 Group3
+Createjoin User3 Group4
+Createjoin User7 Group5
+Createjoin User3 Group6
+Createjoin User5 Group7
+Createjoin User4 Group8
+Createjoin User3 Group9
+Quit User7 Group1
+Query 2
+Createjoin User4 Group6
+Quit User5 Group7
+Query 2
+Quit User3 Group6
+Query 1
+Query 2
+Query 2
+Query 1
+Quit User7 Group5
+Createjoin User3 Group6
+Query 2
+Quit User3 Group9
+Quit User4 Group3
+Createjoin User4 Group1
+Createjoin User6 Group4
+Quit User3 Group6
+Quit User8 Group2
+Query 2
+Createjoin User3 Group6
+Quit User3 Group6
+Quit User6 Group4
+Quit User3 Group4
+Createjoin User7 Group9
+Query 2
+Query 2
+Query 2
+Query 2
+Quit User7 Group9
+Query 1
+Query 1
+Query 2
+Quit User4 Group8
+Query 2
+Quit User4 Group1
+Quit User5 Group0
+Quit User4 Group6
+Query 2
+Query 1

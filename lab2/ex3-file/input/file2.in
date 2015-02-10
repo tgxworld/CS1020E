@@ -1,0 +1,13 @@
+12
+Createfolder doc
+Createfile doc1 97 doc
+Createfolder lab
+Createfolder lecture
+Createfile lab1 260 lab
+Count lab
+Findlargest
+Count doc
+Deletefile doc1
+Movefile lab1 doc
+Count lab
+Count doc

@@ -1,0 +1,64 @@
+63
+Createfolder doc
+Createfile doc1 994 doc
+Count doc
+Createfile doc2 49 doc
+Createfolder code
+Count code
+Findlargest
+Count code
+Createfile code1 227 code
+Createfile code2 886 code
+Count code
+Deletefile doc2
+Findlargest
+Createfolder lab
+Createfile code3 636 code
+Deletefile doc1
+Deletefile code1
+Count doc
+Createfile doc3 342 doc
+Createfile lab1 832 lab
+Createfolder program
+Createfile program1 790 program
+Createfile program2 537 program
+Count lab
+Movefile code2 program
+Count code
+Createfolder song
+Movefile lab1 code
+Movefile program2 lab
+Movefile code3 program
+Count code
+Movefile lab1 lab
+Count program
+Createfile program3 888 program
+Movefile code2 doc
+Findlargest
+Createfolder data
+Movefile program1 song
+Createfile song1 291 song
+Createfile song2 319 song
+Createfile data1 55 data
+Createfile data2 342 data
+Count program
+Count doc
+Createfile data3 411 data
+Count lab
+Count program
+Createfile code4 852 code
+Movefile song2 data
+Createfile doc4 930 doc
+Deletefile song1
+Count doc
+Count lab
+Createfolder assignment
+Count data
+Deletefile lab1
+Createfolder download
+Count data
+Deletefile doc4
+Count assignment
+Count code
+Findlargest
+Createfile lab2 1009 lab

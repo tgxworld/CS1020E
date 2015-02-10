@@ -1,0 +1,56 @@
+55
+Createfolder book
+Createfile book1 540 book
+Deletefile book1
+Createfile book2 394 book
+Createfile book3 722 book
+Createfile book4 19 book
+Createfile book5 652 book
+Count book
+Createfile book6 633 book
+Createfile book7 276 book
+Createfolder quiz
+Createfile quiz1 488 quiz
+Createfolder article
+Count article
+Count quiz
+Createfolder lecture
+Movefile quiz1 article
+Createfile book8 49 book
+Movefile book6 quiz
+Createfile quiz2 183 quiz
+Createfile article1 576 article
+Movefile book2 article
+Movefile book8 quiz
+Createfile article2 895 article
+Count book
+Count article
+Movefile book6 book
+Createfolder desktop
+Movefile book6 desktop
+Createfolder tutorial
+Movefile book5 article
+Findlargest
+Createfile article3 629 article
+Createfile desktop1 613 desktop
+Deletefile book8
+Count desktop
+Movefile article2 tutorial
+Findlargest
+Createfile desktop2 422 desktop
+Createfile tutorial1 279 tutorial
+Movefile book2 lecture
+Createfile desktop3 365 desktop
+Createfolder mail
+Count mail
+Createfolder workspace
+Count workspace
+Createfile mail1 410 mail
+Findlargest
+Createfolder lab
+Movefile desktop1 article
+Count lecture
+Deletefile article3
+Deletefile article1
+Count article
+Createfile article4 441 article

@@ -1,0 +1,37 @@
+36
+Createfolder mail
+Createfile mail1 811 mail
+Createfolder download
+Createfolder article
+Count mail
+Findlargest
+Createfolder assignment
+Count article
+Deletefile mail1
+Createfile assignment1 834 assignment
+Findlargest
+Createfile download1 860 download
+Createfile assignment2 698 assignment
+Count assignment
+Deletefile download1
+Createfile download2 662 download
+Findlargest
+Createfolder project
+Movefile assignment2 project
+Createfile project1 707 project
+Createfile download3 952 download
+Createfile project2 69 project
+Movefile assignment1 project
+Createfile mail2 797 mail
+Createfile download4 663 download
+Createfile mail3 753 mail
+Findlargest
+Movefile download3 mail
+Count assignment
+Createfile assignment3 21 assignment
+Findlargest
+Count article
+Createfile mail4 10480 mail
+Movefile mail4 assignment
+Findlargest
+Deletefile download3

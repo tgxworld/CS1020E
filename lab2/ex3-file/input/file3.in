@@ -1,0 +1,20 @@
+19
+Createfolder doc
+Createfile doc1 571 doc
+Count doc
+Createfile doc2 738 doc
+Createfile doc3 402 doc
+Deletefile doc2
+Count doc
+Findlargest
+Createfile doc4 570 doc
+Createfile doc5 702 doc
+Deletefile doc3
+Createfolder picture
+Createfile doc6 149 doc
+Count doc
+Createfile picture1 350 picture
+Movefile picture1 doc
+Deletefile doc1
+Count doc
+Createfile picture2 905 picture

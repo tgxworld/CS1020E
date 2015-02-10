@@ -1,0 +1,84 @@
+83
+Createfolder picture
+Createfile picture1 786 picture
+Count picture
+Createfile picture2 921 picture
+Createfile picture3 919 picture
+Createfolder article
+Findlargest
+Deletefile picture1
+Createfile picture4 652 picture
+Movefile picture2 article
+Createfile picture5 50 picture
+Createfile picture6 730 picture
+Createfile picture7 891 picture
+Createfolder book
+Movefile picture6 book
+Createfile article1 264 article
+Createfile book1 385 book
+Createfile picture8 43 picture
+Deletefile book1
+Deletefile picture2
+Createfile article2 32 article
+Createfile picture9 745 picture
+Deletefile picture8
+Createfile article3 410 article
+Count book
+Createfile article4 287 article
+Findlargest
+Count book
+Count picture
+Deletefile picture9
+Movefile picture4 article
+Createfile article5 400 article
+Count article
+Count book
+Createfile picture10 596 picture
+Findlargest
+Movefile picture3 article
+Createfile article6 550 article
+Createfile picture11 317 picture
+Deletefile article1
+Createfile picture12 397 picture
+Movefile picture7 book
+Createfolder mail
+Createfile picture13 198 picture
+Createfile book2 390 book
+Createfolder desktop
+Count picture
+Count book
+Movefile article3 desktop
+Createfile article7 957 article
+Createfile picture14 95 picture
+Createfile desktop1 899 desktop
+Createfile picture15 457 picture
+Createfile mail1 611 mail
+Findlargest
+Movefile article4 book
+Count desktop
+Createfile picture16 606 picture
+Findlargest
+Movefile mail1 book
+Createfolder program
+Deletefile article7
+Count book
+Movefile picture3 book
+Createfile book3 1008 book
+Createfile desktop2 509 desktop
+Deletefile picture4
+Movefile article4 program
+Findlargest
+Count program
+Findlargest
+Findlargest
+Movefile article5 mail
+Findlargest
+Movefile article2 book
+Createfile book4 236 book
+Count book
+Createfolder note
+Createfolder exam
+Deletefile desktop1
+Movefile mail1 article
+Movefile article4 article
+Createfile article8 18 article

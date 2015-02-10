@@ -1,0 +1,11 @@
+10
+Createfolder lecture
+Count lecture
+Createfile lecture1 248 lecture
+Createfile lecture2 78 lecture
+Createfolder lab
+Createfile lab1 447 lab
+Movefile lecture2 lab
+Createfile lab2 26 lab
+Movefile lecture2 lecture
+Findlargest
