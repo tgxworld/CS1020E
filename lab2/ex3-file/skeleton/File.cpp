@@ -4,19 +4,23 @@ File::File() {
 }
 
 File::File(string name, int size, string foldername) {
+  this->_name = name;
+  this->_size = size;
+  this->_foldername = foldername;
 }
 
-string File::getName() {
-	return "";
+string File::getFileName() {
+	return this->_name;
 }
 
 int File::getSize() {
-	return 0;
+	return this->_size;
 }
 
 string File::getFolderName() {
-	return "";
+	return this->_foldername;
 }
 
 void File::setFolderName(string foldername) {
+  this->_foldername = foldername;
 }

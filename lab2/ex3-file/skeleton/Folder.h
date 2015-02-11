@@ -9,18 +9,20 @@ using namespace std;
 
 class Folder {
 	private:
-		string name;
-    	vector<File*> files;
+		string _name;
+    	vector<File*> _files;
 
 	public:
 	    Folder();
 		Folder(string name);
-    	
+
     	string getName();
-    	
+
     	void addFile(File* file);
-    	void deleteFile(File* file);
+    	void deleteFile(string filename);
     	int countSize();
+        bool findFile(string filename);
+        File * retreiveFile(string filename);
 };
 
 #endif

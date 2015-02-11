@@ -8,18 +8,18 @@ using namespace std;
 
 class File {
 	private:
-    	string name;
-    	int size;
-    	string foldername;
+    	string _name;
+    	int _size;
+    	string _foldername;
 
 	public:
 	    File();
 	    File(string name, int size, string foldername);
 
-	    string getName();
+	    string getFileName();
 	    int getSize();
 	    string getFolderName();
-	   
+
 	    void setFolderName(string foldername);
 };
 
