@@ -8,8 +8,8 @@ using namespace std;
 
 class Person{
 private:
-    string name;
-    vector <int> groups; //contain the group id's of the person's groups.
+    string _name;
+    vector<int> _groups; //contain the group id's of the person's groups.
 
 public:
     Person();
@@ -19,6 +19,7 @@ public:
     void joinGroup(int grp);
     void quitGroup(int grp);
     int getNumOfGroups();
+    
     /*
     more
     */ 

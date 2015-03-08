@@ -10,16 +10,20 @@ using namespace std;
 
 class SocialNetwork{
 private:
-    vector <Group *> groups;
-    vector <Person *> persons;
+    vector <Group *> _groups;
+    vector <Person *> _persons;
 
 public:
-    SocialNetwork();
-    
-    Person * addPerson(string name);
-    Group * addGroup (string name);
+    void addPerson(Person* person);
+    void addGroup (Group* group);
+    Group* getGroup(string name);
+    Group* getGroupById(int id);
+    Person* getPerson(string name);
     string answerQuery1();
-    string answerQuery2();    
+    string answerQuery2();
+    int getGroupSize();
+    Group* getLargestGroup();  
+    Person* getMostWellKnownDude();  
     /*
     more
     */          

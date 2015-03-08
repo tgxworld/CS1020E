@@ -10,9 +10,9 @@ using namespace std;
 
 class Group{
 private:
-    int id; // assign a unique id to each group.
-    string name;
-    vector <Person *> members;
+    int _id; // assign a unique id to each group.
+    string _name;
+    vector <Person *> _members;
 
 public:
     Group();

@@ -56,7 +56,7 @@ int main() {
         string foldername;
         cin >> foldername;
         // Folder folder(foldername);
-        // folders.push_back(&foldername);
+        // folders.push_back(&folder);
         folders.push_back(new Folder(foldername));
       }
 
