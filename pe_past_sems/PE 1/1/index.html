@@ -1,0 +1,223 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 14 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"\@SimSun";
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:36.0pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:36.0pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{font-family:"Calibri","sans-serif";}
+.MsoPapDefault
+	{margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-SG>
+
+<div class=WordSection1>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span lang=EN-US
+style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Positive
+Sum Intervals (PSI)</span></b></p>
+
+<p class=MsoNormal><b><u><span lang=EN-US style='font-size:12.0pt;line-height:
+115%;font-family:"Times New Roman","serif"'>Description</span></u></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+text-indent:12.0pt'><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman","serif"'>A positive sum interval (PSI) of an
+array is a consecutive subsequence of the array such that the sum of all
+elements in the subsequence is positive. For example, {2, -2, 3, -2} is a PSI
+of the array {1, 2, -2, 3, -2, -2, 3}, but {2, -2, 3, -2, -2} is not. </span></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+text-indent:12.0pt'><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman","serif"'>PSI is very useful, but you are not
+going to use it here. Instead, in this lab, you are to count the number of PSIs
+of a given integer array.</span></p>
+
+<p class=MsoNormal><b><u><span lang=EN-US style='font-size:12.0pt;line-height:
+115%;font-family:"Times New Roman","serif"'>Input</span></u></b></p>
+
+<p class=MsoNormal style='text-indent:12.0pt'><span lang=EN-US
+style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman","serif"'>The
+first line contains an integer N, which is the number of elements in the array.
+The second line contains N integers. All integers are within [-10000, 10000]. </span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-size:12.0pt;line-height:
+115%;font-family:"Times New Roman","serif"'>Output</span></b></p>
+
+<p class=MsoNormal style='text-indent:12.0pt'><span lang=EN-US
+style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Output
+the number of PSIs of the given integer array.</span></p>
+
+<p class=MsoNormal><b><u><span lang=EN-US style='font-size:12.0pt;line-height:
+115%;font-family:"Times New Roman","serif"'>Sample Input 1</span></u></b></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman","serif"'>4</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman","serif"'>1 -2 3 -2</span></p>
+
+<p class=MsoNormal><b><u><span lang=EN-US style='font-size:12.0pt;line-height:
+115%;font-family:"Times New Roman","serif"'>Sample Output 1</span></u></b></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman","serif"'>5</span></p>
+
+<p class=MsoNormal><b><u><span lang=EN-US style='font-size:12.0pt;line-height:
+115%;font-family:"Times New Roman","serif"'>Explanation 1:</span></u></b></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman","serif"'>{1}, {1, -2, 3}, {-2, 3}, {3}, {3, -2}
+are the PSIs.</span></p>
+
+<p class=MsoNormal><b><u><span lang=EN-US style='font-size:12.0pt;line-height:
+115%;font-family:"Times New Roman","serif"'>Sample Input 2</span></u></b></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman","serif"'>7</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman","serif"'>1 2 -2 3 -2 -2 3</span></p>
+
+<p class=MsoNormal><b><u><span lang=EN-US style='font-size:12.0pt;line-height:
+115%;font-family:"Times New Roman","serif"'>Sample Output 2</span></u></b></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman","serif"'>16</span></p>
+
+<p class=MsoNormal><b><u><span lang=EN-US style='font-size:12.0pt;line-height:
+115%;font-family:"Times New Roman","serif"'>Data Scale and Grading:</span></u></b></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman","serif"'>There are 10 test cases in total. The
+N’s in the test cases are 10, 20, 30, 400, 500, 6000, 7000, 8000, 90000, 100000
+respectively. Therefore, </span></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman","serif"'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman","serif"'>If
+the time complexity of your algorithm is higher than O(N<sup>2</sup>), you will
+pass at most 5 test cases, and obtain at most 70% of the total mark.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman","serif"'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman","serif"'>If
+your complexity is O(N<sup>2</sup>), you will pass at most 8 test cases, and
+obtain at most100% of the total mark.</span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt'><span lang=EN-US
+style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman","serif"'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman","serif"'>If
+your complexity is not higher than O(N<sup>1.5</sup>), for example, O(N<sup>4/3</sup>),
+O(NlogN), or O(N), you will obtain at most 110% of the total mark.</span></p>
+
+<p class=MsoNormal><b><u><span lang=EN-US style='font-size:12.0pt;line-height:
+115%;font-family:"Times New Roman","serif"'>Hint</span></u></b></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman","serif"'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman","serif"'>O(N<sup>3</sup>)
+solution: exhaustion</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman","serif"'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman","serif"'>O(N<sup>2</sup>)
+solution: exhaustion (smart)</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman","serif"'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman","serif"'>O(N<sup>1.5</sup>)
+solution: segmented / skipping linked list (still remember?)</span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt'><span lang=EN-US
+style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman","serif"'>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman","serif"'>O(NlogN)
+solution: merge sort (or balanced trees if you know)</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+</html>
